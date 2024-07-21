@@ -13,7 +13,7 @@
     "jsx": "react",
     "noEmit": true,
     "paths": {
-      "components/*": ["app/frontend/components/*"]
+      "components/*": ["app/javascript/components/*"]
     }
   },
   "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public"],

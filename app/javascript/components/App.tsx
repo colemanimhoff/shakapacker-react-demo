@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const HelloMessage = ({ name }: { name: string }) => {
+const App = ({ name }: { name: string }) => {
   const [count, setCount] = useState(0);
   return (
     <>
@@ -22,4 +22,4 @@ const HelloMessage = ({ name }: { name: string }) => {
   );
 };
 
-export default HelloMessage;
+export default App;
