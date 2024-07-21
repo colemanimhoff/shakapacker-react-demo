@@ -5,6 +5,10 @@ import App from 'components/App';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
-document.addEventListener('DOMContentLoaded', () => {
-  root.render(<App name="Shakapacker" />);
-});
+const ReactUJS = {
+  mountComponents() {
+    root.render(<App name="Shakapacker" />);
+  },
+};
+
+export default ReactUJS;

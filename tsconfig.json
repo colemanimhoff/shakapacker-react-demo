@@ -13,7 +13,8 @@
     "jsx": "react",
     "noEmit": true,
     "paths": {
-      "components/*": ["app/javascript/components/*"]
+      "components/*": ["app/javascript/components/*"],
+      "ujs/*": ["app/javascript/ujs/*"]
     }
   },
   "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public"],

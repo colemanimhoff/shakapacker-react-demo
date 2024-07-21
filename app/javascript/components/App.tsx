@@ -7,7 +7,6 @@ const App = ({ name }: { name: string }) => {
     <>
       <h1>Hello, {name}!</h1>
       <Counter />
-      <br />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis
         mauris tortor. Fusce eu tellus eget neque vulputate varius. In sed nunc
